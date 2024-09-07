@@ -72,12 +72,18 @@ input[type=number] {
     background-color: black;
 }
 
-.resposta {
+.resultado {
     width: 75%;
+    max-width: 15em;
     min-height: 8em;
     border-radius: 1em;
+    padding: 1em;
     background-color: black;
     color: #FFBB00;
     box-shadow: 0 0 5px black;
     margin-bottom: 1.5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
