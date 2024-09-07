@@ -18,8 +18,6 @@ Este é um projeto simples de uma calculadora de Índice de Massa Corporal (IMC)
 
 ![Imagem do Resultado](images/Resultado_IMC.png)
 
-*Substitua "path/to/image.png" pelo caminho real do arquivo de imagem.*
-
 ## Pré-requisitos
 
 Nenhum software adicional é necessário para rodar o projeto, além de um navegador web moderno. Basta clonar ou baixar os arquivos e abrir o arquivo `index.html` em seu navegador.
