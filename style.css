@@ -111,12 +111,7 @@ input[type="number"] {
     border-radius: 0.5em;
     text-align: center;
     font-size: 1.2rem;
-    display: none; /* Esconde o resultado inicialmente */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.resultado.active {
-    display: block; /* Exibe o resultado quando for calculado */
 }
 
 .footer {
