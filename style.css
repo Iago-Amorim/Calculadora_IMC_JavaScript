@@ -11,79 +11,106 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
 .container {
     background-color: #FFBB00;
     border-radius: 1em;
+    padding: 2em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
 }
 
 .title {
+    font-size: 2rem;
     text-align: center;
-    padding: .5em .5em .2em .5em;
-    margin-bottom: .6em;
-    border-bottom: 5px solid black;
+    margin-bottom: 1.5em;
+    color: #333;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5em;
+    width: 100%;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .item {
-    width: 75%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: .8em;
+    margin-bottom: 1em;
 }
 
-input[type="text"], input[type="number"] {
-    border: none;
-    height: 2em;
-    border-radius: 0.2em;
+.item label {
+    width: 35%;
+    font-weight: bold;
+}
+
+.item input {
+    width: 60%;
+    border: 2px solid #333;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    font-size: 1rem;
     text-align: center;
-    font-size: 1em;
+    color: #333;
 }
 
-input[type=number]::-webkit-inner-spin-button { 
-    -webkit-appearance: none;
-    
+input[type="text"], input[type="number"]::placeholder {
+    color: #888;
 }
-input[type=number] { 
-   -moz-appearance: textfield;
-   appearance: textfield;
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
 }
 
 .calcular {
+    width: 100%;
     border: none;
-    background-color: rgb(52, 51, 51);
+    background-color: #333;
     color: #FFBB00;
-    width: 75%;
-    font-size: 1em;
-    border-radius: 0.2em;
-    padding: .5em 0;
-    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.5em;
+    padding: 0.75em;
     cursor: pointer;
+    margin-top: 1em;
+    transition: background-color 0.3s ease;
 }
 
 .calcular:hover {
-    transition: .5s;
-    background-color: black;
+    background-color: #555;
+}
+
+.resultado-container {
+    width: 100%;
+    margin-top: 2em;
 }
 
 .resultado {
-    width: 75%;
-    max-width: 15em;
-    min-height: 8em;
-    border-radius: 1em;
-    padding: 1em;
-    background-color: black;
+    width: 100%;
+    padding: 1.5em;
+    background-color: #333;
     color: #FFBB00;
-    box-shadow: 0 0 5px black;
-    margin-bottom: 1.5em;
+    border-radius: 0.5em;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 1.2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
