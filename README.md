@@ -35,13 +35,13 @@ O projeto contém os seguintes arquivos principais:
 1. Clone o repositório para o seu computador:
 
    ```bash
-   git clone https://github.com/Iago-Amorim/calculadora-imc.git
+   git clone https://github.com/Iago-Amorim/Calculadora_IMC_JavaScript
    ```
 
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd calculadora-imc
+   cd Calculadora_IMC_JavaScript
    ```
 
 3. Abra o arquivo `index.html` no seu navegador de internet preferido.
